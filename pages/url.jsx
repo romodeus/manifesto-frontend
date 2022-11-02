@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import Header from '../components/header'
-import Footer from '../components/footer'
 import axios from 'axios'
 import { useRouter } from 'next/router'
+import React, { useEffect, useState } from 'react'
+import Footer from '../components/footer'
+import Header from '../components/header'
 
 const Url = () => {
   const data = useRouter();

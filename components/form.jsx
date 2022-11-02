@@ -1,6 +1,6 @@
-import React, { useState } from "react";
 import axios from "axios";
 import Router from "next/router";
+import React, { useState } from "react";
 
 const Form = () => {
   
@@ -32,14 +32,14 @@ const Form = () => {
 
   return (
     <div>
-      <div className="flex justify-center pt-10">
+      <div className="flex justify-center h-full">
         <div className="xl:w-96">
           <input type="text" className="border border-black form-control py-4 px-5 w-full rounded placeholder:text-stone-900
-          placeholder:text-black placeholder:text-xs placeholder:font-semibold my-6"
+          placeholder:text-xs placeholder:font-semibold my-6"
           placeholder="Paste your long url." onChange={(e) => setLongUrl(e.target.value)}/>
 
           <input type="text" className="border border-black form-control py-4 px-5 w-full rounded placeholder:text-stone-900
-          placeholder:text-black placeholder:text-xs placeholder:font-semibold mb-3"
+          placeholder:text-xs placeholder:font-semibold mb-3"
           placeholder="Create your custom url." onChange={(e) => setCustomUrl(e.target.value)}/>
 
           <p className="text-xs font-semibold text-center text-[#2C2C2C] tracking-wider"><span className="text-[#CB2F2F]">Note:</span> max character length is less than 10 character.</p>
