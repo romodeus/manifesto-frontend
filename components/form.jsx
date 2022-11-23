@@ -1,7 +1,6 @@
 import axios from "axios";
 import Router from "next/router";
 import React, { useState } from "react";
-import Swal from "sweetalert2";
 
 const Form = () => {
   const [longurl, setLongUrl] = useState([]);
@@ -14,7 +13,7 @@ const Form = () => {
         real_url: longurl,
       })
       .then((res) => {
-        Swal.fire("Yeay!", "Success changing your URL :)", "success");
+        alert("berhasil diubah");
         Router.push({
           pathname: "/url",
           query: {
@@ -24,7 +23,6 @@ const Form = () => {
       })
       .catch((err) => {
         alert("gagal");
-        Swal.fire("Sorry :(", "failed to change your URL", "error");
         Router.push("/error");
       });
   };
@@ -48,8 +46,6 @@ const Form = () => {
             placeholder="Create your custom url."
             onChange={(e) => setCustomUrl(e.target.value)}
           />
-
-          {/* <p className="text-xs font-semibold text-center text-[#2C2C2C] tracking-wider"><span className="text-[#CB2F2F]">Note:</span> max character length is less than 10 character.</p> */}
           <div className="flex justify-center pt-8">
             <button
               className="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-300 px-5 py-2 rounded text-sm"
