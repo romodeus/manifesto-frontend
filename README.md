@@ -36,6 +36,39 @@
 </div>
 
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+      <ul>
+       <li><a href="#feature">Feature</a></li>
+      </ul>
+      <ul>
+       <li><a href="#high-level-architecture">High Level Architecture</a></li>
+      </ul>
+      <ul>
+        <li><a href="#see-it-live">See it live</a></li>
+      </ul>
+    </li>
+    <li>
+        <a href="#usage">Usage</a>
+        <ul>
+            <li><a href="#installation">Installation</a></li>
+        </ul>
+        <ul>
+            <li><a href="#run-your-code">Run your code</a></li>
+        </ul>
+    </li>
+    <li><a href="#contributors">Contributors</a></li>
+  </ol>
+</details>
+
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -89,14 +122,36 @@ This the tech stack that we used for develope Manifest for the Frontend
 <!-- Installation -->
 ## Usage
 
-<br />
-
 ### Installation
-1. Clone this repository
+1. Clone this repository to local
 ```bash
-git clone
+git clone https://github.com/romodeus/manifesto-frontend.git
+```
+2. Move to folder
+```bash
+cd manifesto-frontend
+```
+3. Install dependencies
+```bash
+npm install
+```
+</br>
+
+### Run your code
+```bash
+npm run dev
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Contributors -->
+## Contributors
+
+Syifa Ulyanida - syifaulya0610@gmail.com
+
+Github: [https://github.com/syifaull](https://github.com/syifaull)
+
+[![LinkedIn][linkedin]][linkedinsyifa-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,3 +182,6 @@ git clone
 
 [sweetalert]: https://img.shields.io/badge/-Sweet%20Alert-black?style=for-the-badge
 [sweetalert-url]: https://sweetalert2.github.io/
+
+[linkedin]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
+[linkedinsyifa-url]: https://www.linkedin.com/in/syifa-ulyanida/
