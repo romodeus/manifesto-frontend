@@ -1,6 +1,7 @@
 import axios from "axios";
 import Router from "next/router";
 import React, { useState } from "react";
+import Swal from "sweetalert2";
 
 const Form = () => {
   const [longurl, setLongUrl] = useState([]);
@@ -13,7 +14,7 @@ const Form = () => {
         real_url: longurl,
       })
       .then((res) => {
-        alert("berhasil diubah");
+        Swal.fire("Yeay!", "Success changing your URL :)", "success");
         Router.push({
           pathname: "/url",
           query: {
@@ -22,7 +23,7 @@ const Form = () => {
         });
       })
       .catch((err) => {
-        alert("gagal");
+        Swal.fire("Sorry :(", "failed to change your URL", "error");
         Router.push("/error");
       });
   };
