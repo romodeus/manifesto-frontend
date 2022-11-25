@@ -57,6 +57,50 @@ This the tech stack that we used for develope Manifest for the Frontend
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- FEATURE -->
+### Feature
+- Create custom URL's
+    - you can create your custom url and publish to your important things.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- HLA -->
+### High Level Architecture
+
+<br />
+<div align="center">
+  <a href="https://drive.google.com/file/d/1WlAkGL4msOUllDYRa2RahTGXCSUI8vzt/view?usp=sharing">
+    <img src="https://i.ibb.co/8YF3C4S/Manifesto-HLA.jpg" alt="hla">
+  </a>
+</div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Deployment -->
+### See it live
+
+<br />
+<div align="center">
+  <a href="https://www.manifesto.romodeus.site/">
+  Manifesto
+  </a>
+</div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Installation -->
+## Usage
+
+<br />
+
+### Installation
+1. Clone this repository
+```bash
+git clone
+```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
